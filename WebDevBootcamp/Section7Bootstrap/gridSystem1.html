@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Bootstrap Grid System</title>
+    <link rel="stylesheet" type="text/css" href="bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="gridStyling.css">
+  </head>
+
+  <body>
+
+    <!-- our main objectives here are to understand the purpose
+    of the popular grid system, to understand the 4 different sizes, and to write
+    nested grids. -->
+
+    <!-- first note: notice that the grid system is built on a base of 12
+    divisions. -->
+
+    <!-- grids must lie in a container. -->
+    <div class="container">
+      <!-- here's an example of a couple of divisions of the grid (two rows) -->
+      <!-- <div class="row">
+        <div class="col-lg-2 pink">COL LG 2</div>
+        <div class="col-lg-6 pink">COL LG 6</div>
+        <div class="col-lg-4 pink">COL LG 4</div>
+      </div>
+
+      <div class="row">
+        <div class="col-lg-4 pink">COL LG 4</div>
+        <div class="col-lg-4 pink">COL LG 4</div>
+        <div class="col-lg-4 pink">COL LG 4</div>
+      </div> -->
+
+      <!-- 4 sizes exploration (xs,sm,md,lg for different devices/windows) -->
+      <!-- note how the examples below reformat when MD size is hit (2 rows/6 cols) -->
+      <div class="row">
+        <div class="col-lg-1 col-md-2 pink">COL LG 1 MD 2</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1 MD 2</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1 MD 2</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1 MD 2</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1 MD 2</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1 MD 2</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1 MD 2</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1 MD 2</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1 MD 2</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1 MD 2</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1 MD 2</div>
+        <div class="col-lg-1 col-md-2 pink">COL LG 1 MD 2</div>
+      </div>
+
+      <!-- can also nest rows (into another 12 divisions) if you want. -->
+      <!-- must add another "row" class to contain nested rows. -->
+    </div>
+
+  </body>
+</html>

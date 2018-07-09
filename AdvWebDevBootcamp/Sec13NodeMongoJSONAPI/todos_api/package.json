@@ -1,0 +1,26 @@
+{
+  "name": "todos_api",
+  "version": "1.0.0",
+  "description": "building a first node/express/mongo API during Adv. Web Dev. Bootcamp on udemy.com",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/bradleypmartin/AdvWebDevBootcamp/Sec13NodeMongoJSONAPI"
+  },
+  "keywords": [
+    "api",
+    "mongodb",
+    "express",
+    "node"
+  ],
+  "author": "Brad Martin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.3",
+    "mongoose": "^5.1.4"
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "name": "yelpcamp",
+  "version": "1.0.0",
+  "description": "This is a big web application project completed during Colt Steele's Web Developer Bootcamp course on udemy.com.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/bradleypmartin/WebDevBootcamp/YelpCamp"
+  },
+  "keywords": [
+    "HTML",
+    "CSS",
+    "JS",
+    "node",
+    "development"
+  ],
+  "author": "Brad Martin",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "connect-flash": "^0.1.1",
+    "ejs": "^2.6.1",
+    "express": "^4.16.3",
+    "express-session": "^1.15.6",
+    "method-override": "^2.3.10",
+    "mongoose": "^5.1.3",
+    "passport": "^0.4.0",
+    "passport-local": "^1.0.0",
+    "passport-local-mongoose": "^5.0.0"
+  }
+}

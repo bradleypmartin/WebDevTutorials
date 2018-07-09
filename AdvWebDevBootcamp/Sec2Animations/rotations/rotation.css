@@ -1,0 +1,16 @@
+p {
+    width: 50px;
+    height: 50px;
+    background-color: #e74c3c;
+    color: #ecf0f1;
+    border: 2px solid #2c3e50;
+}
+
+.transformed {
+    background-color: #9b59b6;
+    /*note transform defaults to center origin*/
+    transform: rotate(45deg);
+    transform-origin: left top; /*example of manually resetting origin*/
+}
+
+/*special note: for multiple transforms (e.g. scaling AND rotation) need to input just 1 command*/

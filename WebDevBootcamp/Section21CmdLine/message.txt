@@ -1,0 +1,3 @@
+Hello from the message.txt file!!! We've switched over from local
+to AWS Cloud9 development for at least the next couple of course
+sections.

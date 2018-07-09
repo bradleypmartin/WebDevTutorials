@@ -1,0 +1,35 @@
+<!-- Front-end forms aren't going to be super useful until we link up to backend
+functionality, but we can introduce them now. -->
+
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Form Demo</title>
+  </head>
+  <body>
+    <p>
+      <input type="text">
+      <input type="color">
+      <input type="radio">
+      <input type="password">
+    </p>
+    <h1>Login</h1>
+
+    <!-- want to place all this logon info within a 'form' -->
+    <!-- we'll need to augment this to push data to our backend later. -->
+    <!-- note inclusion of simple validations. -->
+    <form>
+      <label for="email">
+        Email:
+        <input name="email" type="email" placeholder="Email" required>
+      </label>
+      <label for="password">
+        Password:
+        <input name="password" type="password" placeholder="password" required>
+      </label>
+      <input type="submit">
+    </form>
+
+  </body>
+</html>

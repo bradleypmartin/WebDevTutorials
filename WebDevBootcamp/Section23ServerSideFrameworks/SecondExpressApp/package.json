@@ -1,0 +1,26 @@
+{
+  "name": "secondexpressapp",
+  "version": "1.0.0",
+  "description": "This is a second app we are creating in Express as part of Colt Steele's web dev bootcamp (udemy.com).",
+  "main": "app.js",
+  "scripts": {
+    "test": "/"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://www.github.com/bradleypmartin/WebDevBootcamp/Section23ServerSideFrameworks/SecondExpressApp"
+  },
+  "keywords": [
+    "express",
+    "web",
+    "application",
+    "development",
+    "server",
+    "backend"
+  ],
+  "author": "Brad Martin",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3"
+  }
+}

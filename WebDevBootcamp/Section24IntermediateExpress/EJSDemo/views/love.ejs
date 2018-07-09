@@ -1,0 +1,16 @@
+<% include partials/header %>
+
+<!-- going to put in a variable delimited by funny brackets as below -->
+<h1>You fell in love with: <%= thingVar %></h1>
+
+<% if(thingVar.toLowerCase() === "rusty"){ %>
+    <p>GOOD CHOICE! RUSTY IS THE BEST!</p>
+<% } else { %>
+    <p>That's okay, I guess, but you could have picked Rusty... :(</p>
+<% } %>
+
+<p>P.S. this is the love.ejs file talking!</p>
+
+<!--note how JS logic is delimited without equal sign, whereas content to be added useds the equal sign.-->
+
+<% include partials/footer %>

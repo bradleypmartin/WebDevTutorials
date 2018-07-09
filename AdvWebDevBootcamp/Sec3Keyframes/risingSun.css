@@ -1,0 +1,86 @@
+/* style that calls on keyframe animation */
+p {
+    border-radius: 40px;
+    width: 80px;
+    height: 80px;
+    animation-name: risingSun;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    position: relative;
+    z-index: 1;
+}
+
+/* enabling pause of sun animation */
+p:hover {
+    animation-play-state: paused;
+}
+
+/* coloring skybox */
+.sky {
+    animation-name: changingSky;
+    animation-duration: 10s;
+    animation-timing-function: linear;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    background-color: #51312c;
+    padding: 5px;
+}
+
+.ground {
+    background-color: #36af5a;
+    height: 1500px;
+    position: relative;
+    z-index: 2;
+}
+
+html, body {
+    height: 100%;
+    margin: 0;
+}
+
+/* keyframe syntax */
+@keyframes risingSun {
+    0% {
+        background-color: red;
+        transform: translate(0px, 100px);
+    }
+    25% {
+        transform: translate(100px, 0px);
+        background-color: orange;
+    }
+    50% {
+        background-color: orange;
+        transform: translate(200px, -10px);
+    }
+    75% {
+        background-color: orange;
+        transform: translate(300px, 0px);
+    }
+    100% {
+        background-color: red;
+        transform: translate(400px, 100px);
+    }
+}
+
+@keyframes changingSky {
+    0% {
+        background-color: #51312c;
+    }
+    5% {
+        background-color: #d17b6c;
+    }
+    15% {
+        background-color: #6cafd1;
+    }
+    85% {
+        background-color: #6cafd1;
+    }
+    95% {
+        background-color: #d17b6c;
+    }
+    100% {
+        background-color: #51312c;
+    }
+}

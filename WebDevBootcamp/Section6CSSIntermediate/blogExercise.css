@@ -1,0 +1,48 @@
+body {
+  border: 20px solid #bdc3c7;
+  margin-left: 20%;
+  margin-right: 20%;
+  margin-top: 2%;
+  padding: 20px;
+  padding-top: 0px;
+  font-family: 'Source Sans Pro', sans-serif;
+  max-width: 700px;
+}
+
+h2 {
+  color: #2c3e50;
+  font-weight: 900;
+  font-size: 35px;
+  text-transform: capitalize;
+}
+
+h4 {
+  font-size: 18px;
+  color: #3498db;
+  text-transform: uppercase;
+  font-weight: lighter;
+  letter-spacing: 1px;
+}
+
+div p:nth-of-type(1) {
+  border-left: 5px solid #bdc3c7;
+  padding-left: 5px;
+}
+
+p {
+  font-weight: 600;
+  color: rgba(0,0,0,0.9);
+  font-size: 18px;
+  line-height: 1.2;
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    border-color: rgba(74,76,78,0.1);
+}

@@ -1,0 +1,30 @@
+body {
+  font-family: 'Raleway', sans-serif;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: 600;
+}
+
+p {
+  font-size: 20px;
+}
+
+.jumbotron {
+  margin-top: 90px;
+  color: #2c3e50;
+}
+
+.img-thumbnail {
+  margin-bottom: 30px;
+}
+
+.navbar-dark .navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar{
+  margin-left: 8%;
+  margin-right: 8%;
+}

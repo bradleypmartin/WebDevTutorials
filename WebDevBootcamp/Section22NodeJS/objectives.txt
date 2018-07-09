@@ -1,0 +1,18 @@
+# intro to Node
+
+* What is Node?
+A: node.js is a language in which we can write JS for server-side action
+
+* Why are we learning it?
+A: -high-performance
+   -also uses JS (as we've done on the front end)
+   -hip! (not a huge reason ;) )
+   
+* Remember that we're not here to learn specific technologies (they change very
+  fast!), but rather to learn web development. Long term, we'll probably end up
+  learning a bunch of technologies as we change tasks/companies or as time goes
+  on.
+  
+* we're also going to learn quite a bit about NPM: the package manager for JS.
+  there's a lot of useful stuff in there, and we'll use a variety of packages
+  for our projects.

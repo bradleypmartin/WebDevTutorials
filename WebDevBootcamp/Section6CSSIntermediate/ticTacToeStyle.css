@@ -1,0 +1,28 @@
+/* formatting heading */
+h1 {
+  font-size: 60;
+  text-align: center;
+}
+
+/* cell size */
+td {
+  width: 100px;
+  height: 100px;
+}
+
+/* borders */
+tr:nth-of-type(1) td {
+  border-bottom: 2px solid black;
+}
+
+tr:nth-of-type(3) td {
+  border-top: 2px solid black;
+}
+
+.leftCol{
+  border-right: 2px solid black;
+}
+
+.rightCol{
+  border-left: 2px solid black;
+}

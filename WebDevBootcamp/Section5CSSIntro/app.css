@@ -1,0 +1,35 @@
+h1 {
+  /* can use names, rgb(), or hex codes for colors. */
+  /* color: red; */
+  /* color: #54206e; */
+  /* color: rgb(240,0,100); */
+
+  /* also can use alpha channel with rgba() */
+  color: rgba(11,99,150,0.8);
+
+  /* note all the things we need for borders */
+  /* border-color: purple;
+  border-width: 5px;
+  border-style: solid; */
+
+  border: 8px dashed rgb(255,100,80);
+
+}
+
+li {
+  color: green;
+}
+
+h4 {
+  color: purple;
+  background: rgb(255,100,80);
+}
+
+body{
+  background: pink;
+
+  /* commented: image bg */
+  /* background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpLGeNa0FyYjgnk87nRanloh29nV6NJcX4MmMxZETphPEv85CZKw);
+  background-repeat: no-repeat;
+  background-size: cover; */
+}

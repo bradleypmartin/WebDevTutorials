@@ -1,0 +1,17 @@
+p {
+  /* content: width and height (pixels or relative to parent)*/
+  width: 50%;
+  height: 50px;
+
+  /* padding */
+  /*padding: 10px;*/
+  padding-left: 40px;
+
+  /* border */
+  border: 2px solid blue;
+
+  /* margin */
+  /*margin: 20px;*/
+  /* margin: 20px 40px 100px 50px; */
+  margin: 0 auto 0 auto;
+}

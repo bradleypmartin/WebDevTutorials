@@ -1,0 +1,56 @@
+/* APPEARANCE STYLES*/
+@import url("https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900");
+
+.box {
+  font-size: 50px;
+  color: white;
+  padding: 10px;
+  text-align:center;
+  font-family: lato;
+  font-weight: 300;
+  box-sizing: border-box;
+  
+  /*note that by default, flex item size will*/
+  /*be limited by container size. You'll also see
+  some interesting behavior when resizing windows.*/
+  width: 100px;
+}
+
+.box-1 {background: #e51400; }
+.box-2 {background: #fa6800;}
+.box-3 {background: #f0a30a; }
+.box-4 {background: #e3c800; }
+.box-5 {background: #a4c400;}
+.box-6 {background: #60a917;}
+.box-7 {background: #00aba9;}
+.box-8 {background: #1ba1e2;} 
+.box-9 {background: #aa00ff;}
+
+/*  LAYOUT STYLES */
+
+.container {
+  display: flex;
+  border: 20px solid black;
+  
+  /* you can also do a lot of interesting things
+  with 'flex-direction' property */
+  /*flex-direction: row-reverse;*/
+  /*flex-direction: column-reverse;*/
+  /*flex-direction: column;*/
+  
+  /*let's try flex-wrap (default: no wrap). Pretty cool!
+  there's a bunch of other options for this too. */
+  /*flex-wrap: wrap;*/
+  /*flex-wrap: column;*/
+  
+  /*can wrap vertically by specifying a height along with flex-direction: column.*/
+  /*height: 90vh;*/
+  
+  /*you can also do a lot of cool alignment stuff with justify-content (to determine*/
+  /*position of flex items within containers)*/
+  /*justify-content: flex-end;*/
+  /*justify-content: center;*/
+  /*justify-content: space-between;*/
+  justify-content: space-around;
+  
+}

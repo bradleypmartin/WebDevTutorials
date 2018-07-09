@@ -1,0 +1,49 @@
+/* font-family */
+
+p {
+  font-family: Arial;
+}
+
+h1 {
+  /* using custom font from Google Fonts */
+  font-family: 'Montserrat', sans-serif;
+}
+
+/* font-size */
+
+body {
+  font-size: 16px;
+}
+
+h1 {
+  font-size: 5.0em;
+}
+
+/* font-size relative changes */
+span{
+  font-size: 2.0em;
+}
+
+/* font-weight */
+p {
+  font-weight: bold;
+}
+
+/* line-height */
+p {
+  line-height: 1.5;  /* spacing */
+}
+
+/* text-align */
+h1 {
+  text-align: right;
+}
+
+p {
+  text-align: center;
+}
+
+/* text-decoration */
+p {
+ text-decoration: underline;
+}

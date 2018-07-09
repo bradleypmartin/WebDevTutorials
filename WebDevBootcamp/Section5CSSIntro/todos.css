@@ -1,0 +1,17 @@
+body {
+  background: orange;
+}
+
+li {
+  border: 3px solid green;
+}
+
+/* '#' indicates id label */
+#special {
+  background: yellow;
+}
+
+/* '.' prefixes classes */
+.completed {
+  text-decoration: line-through;
+}
